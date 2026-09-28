@@ -1,5 +1,5 @@
 import Card from '@components/Card';
-import { examples, crud } from '@/data/crud';
+import { crud, examples } from '@/data/crud';
 import styles from './page.module.css';
 
 

@@ -52,5 +52,13 @@ export const crud = [
         description: 'Cria série via modal e API Route.',
         color: 'orange',
         Icon: PlusCircle,
+    },
+     {
+        id: 2,
+        method: 'Read',
+        verb: 'Get',
+        description: 'Lista séries no SSR e busca pelo id em rota dinâmica.',
+        color: 'green',
+        Icon: List,
     }
 ]

@@ -15,6 +15,7 @@ export const examples = [
         method: 'ApiKey',
         verb: 'Get',
         description: 'Lista séries com api-key exposta.',
+        color: "white",
         Icon: KeyRound,
     },
     {
@@ -22,6 +23,7 @@ export const examples = [
         method: 'SSR',
         verb: 'Get',
         description: 'Lista séries renderizadas no SSR.',
+        color: "orange",
         Icon: Server,
     },
     {
@@ -29,6 +31,7 @@ export const examples = [
         method: 'Offline',
         verb: 'Get',
         description: 'Lista séries salvas no sessionStorage.',
+        color: "yellow",
         Icon: HardDrive,
     },
     {
@@ -36,6 +39,7 @@ export const examples = [
         method: 'FullStack',
         verb: 'Get',
         description: 'Lista séries via API Route - BackEnd Intermediário.',
+        color: "green",
         Icon: Layers3,
     },
 ];
@@ -46,6 +50,7 @@ export const crud = [
         method: 'Create',
         verb: 'Post',
         description: 'Cria série via modal e API route',
+        color: "red",
         Icon: PlusCircle,
     },
     {
@@ -53,6 +58,7 @@ export const crud = [
         method: 'Read',
         verb: 'Get',
         description: 'Lista séries via modal e API route',
+        color: "blue",
         Icon: List,
     },
     {
@@ -60,6 +66,7 @@ export const crud = [
         method: 'Update',
         verb: 'Put',
         description: 'Atualiza série existente pelo id',
+        color: 'pink',
         Icon: SquarePen,
     },
     {
@@ -67,6 +74,7 @@ export const crud = [
         method: 'Delete',
         verb: 'Delete',
         description: 'Exclui série existente pelo id',
+        color: 'purple',
         Icon: Trash2,
     },
     
